@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+		.box{
+			border: 1px solid blue;
+			width: 500px;
+			height:100px;
+			overflow: hidden; 
+		}
+		ul{
+			border: 1px solid green;
+			width: 1500px;
+			height: 100px;
+			animation:turnaround 3s  linear infinite;;
+		}
+		li{
+			list-style: none;
+			float: left;
+			margin-right:50px;
+		}
+		.box img{
+			width: 100px;
+			height: 100px;
+		}
+		@keyframes  turnaround{
+			0%{
+             transform:translateX(0PX); 
+			}
+			100%{
+			transform:translateX(-750PX);
+			}
+		}
+		 ul:hover{animation-play-state:paused}
+	</style>
+</head>
+<body>
+ <div class="box">
+	<ul>
+		<li><img src="E:\前端\猫猫.jpg" alt=""></li>
+			<li><img src="E:\前端\狗狗.jpg" alt=""></li>
+			<li><img src="E:\前端\猫猫2.jpg" alt=""></li>
+			<li><img src="E:\前端\菊花.jpg" alt=""></li>
+			<li><img src="E:\前端\帅.jpg" alt=""></li>
+
+			<li>
+			<li><img src="E:\前端\猫猫.jpg" alt=""></li>
+			<li><img src="E:\前端\狗狗.jpg" alt=""></li>
+			<li><img src="E:\前端\猫猫2.jpg" alt=""></li>
+			<li><img src="E:\前端\菊花.jpg" alt=""></li>
+			<li><img src="E:\前端\帅.jpg" alt=""></li>
+
+			
+		</li>
+	</ul>
+	</div>
+</body>
+</html>

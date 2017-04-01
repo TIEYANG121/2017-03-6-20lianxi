@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{
+			width: 200px;
+			height:200px;
+			border-radius:5px; 
+			background-color:green;
+			margin: 200px 0 0 200px;
+			animation: turnaround 6s infinite;
+
+		}
+		@keyframes  turnaround{
+			0%{
+				transform:rotate(0deg)
+		background-color:blue;
+		margin:200px 0 0 200px;
+		
+				}
+
+			10%{margin:200px 0 0 370px;}
+			15%{margin:330px 10 20 200px;}
+			20%{margin:440px 15 25 150px;}
+			25%{margin:550px 20 30 100px;}
+			30%{margin:660px 25 35 95px;}
+			35%{margin:770px 30 40 90px;}
+			40%{margin:980px 35 45 85px;}
+			45%{margin:1090px 40 50 80px;}
+			50%{margin:990px 45 55 75px;}
+			55%{margin:880px 50 60 70px;}
+			60%{margin:760px 55 65 65px;}
+			65%{margin:670px 60 70 60px;}
+			70%{margin:750px 65 75 55px;}
+			75%{margin:440px 70 80 50px;}
+			80%{margin:330px 75 85 45px;}
+			85%{margin:220px 80 90 40px;}
+			90%{margin:110px 85 95 35px;}
+			95%{margin:665px 90 99 20px;}
+			100%{
+				transform: rotate(360deg);
+				background-color:red;
+			margin:200px 0 0 1000px;
+			}
+		}
+		.box:hover{animation-play-state:paused}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,482 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	margin: 0 auto;
+	box-sizing:border-box;
+}
+li {
+	list-style: none;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+.clear:before,.clear:after;{
+	content: "";
+	display:block;
+	clear:both;
+}
+
+
+
+.header{
+	width: 1000px;
+	height:160px;
+	border:1px solid #fff;
+
+
+}
+.header .logo{
+	border:1px solid #fff;
+	color: #0a3b7e;
+	font-size: 20px;
+	float: left;
+	font-family: '微软雅黑';
+	margin: 42px 0 0 22px;
+}
+.header .search{
+	float:right;
+	margin: 39px 19px 0 0 ;
+}
+.header .search input{
+	display: block;
+	float: left;
+
+
+}
+.header  button img{
+	width: 16px;
+	height: 16px;
+	display: block;
+	float:left;
+}
+ .header .nav{
+	width: 1000px;
+	height:60px;
+	background-color: #303030;
+	margin-top:100px;
+}
+.header a{
+	color: #fff;
+	text-decoration: none;
+	float: left;
+	font-size:15px;
+	font-family: '微软雅黑';
+	width: 125px;
+	height: 59px;
+	text-align:center;
+	line-height:59px;
+	border-right: 1px solid #4a4a4a;
+}
+
+
+
+
+.banner{
+	border: 1px solid #fff;
+	width: 1000px;
+	height: 500px;
+}
+.banner img{
+	width: 1000px;
+	height: 500px;
+}
+.banner .button1{
+    	font-size:20px;
+    	position:absolute;
+    	top:400px;
+    	margin-left:400px;
+    	border: 1px solid blue;
+    	width:200px;
+    	height:47px;
+    	background-color: #0a3b7e;
+    	border: none;
+    	outline: none;
+    	border-radius:6px;
+    	color: #fff;
+    }
+    .banner .button1:hover{
+    	background-color: #eaeaea;
+    	color: #000;
+    	cursor: pointer;
+    }
+    .banner .button1:active{
+    	background-color: #159;
+    }
+    .banner .button2{
+    	font-size:14px;
+    	position:absolute;
+    	top:400px;
+    	margin-left:0px;
+    	border: 1px solid blue;
+    	width:40px;
+    	height:60px;
+    	background-color: #b2a9a3;
+    	border: none;
+    	outline: none;
+    	color: #fff;
+    }
+    .banner .button2:hover{
+    	background-color: #eaeaea;
+    	color: #000;
+    	cursor: pointer;
+    }
+    .banner .button2:active{
+    	background-color: #159;
+    }
+    .banner .button3{
+    	font-size:14px;
+    	position:absolute;
+    	top:400px;
+    	margin-left:960px;
+    	border: 1px solid blue;
+    	width:40px;
+    	height:60px;
+    	background-color: #b2a9a3;
+    	border: none;
+    	outline: none;
+    	color: #fff;
+    }
+    .banner .button3:hover{
+    	background-color: #eaeaea;
+    	color: #000;
+    	cursor: pointer;
+    }
+    .banner .button3:active{
+    	background-color: #159;
+    }
+
+
+
+
+
+.container{
+	border: 1px solid #fff;
+	width: 1000px;
+	height: 792px;
+	overflow: hidden;
+}
+.container-top{
+	/*border: 1px solid #0f0;*/
+	width: 1000px;
+	height: 240px;
+}
+.container-top  .b1-1{
+	border: 1px solid #fff;
+	color: #000;
+	font-size:17px;
+	width: 500px;
+height: 240px;
+	float: left;
+
+}
+
+.container-top a{
+	color: #515151;
+	font-size: 12px;
+	font-family: '微软雅黑';
+}
+
+.container-top span{
+	color: #515151;
+	font-size: 12px;
+	float: right;
+}
+.container-top .b1-1:hover{
+	background-color: #eaeaea;
+}
+.container-top .li1-1 a{
+	color: #000;
+	font-size:12px;
+	float: left;
+}
+.container-top .b2{
+	background-color: #eaeaea;
+	color: #000;
+	font-size:17px;
+	float: left;
+	width: 241px;
+	height: 240px;
+}
+.container-top .li1-2-1{
+	color: #b8b8b8;
+	font-size: 14px;
+}
+.container-top .li1-2{
+	color: #515151;
+	font-size: 12px;
+}
+.container-top .b2:hover{
+	background-color: #eaeaea;
+}
+.container-top ul .li1-2{
+	color: #969696;
+	font-size:12px;
+}
+/*.container-top .b3{
+	width: 245px;
+	height: 240px;
+}*/
+.container-top .b3 img{
+	width: 82px;
+	height:109px;
+	margin-left:110px; 
+
+}
+.container-top .b3{
+    	font-size:17px;
+    	border: 1px solid #fff;
+    	border: none;
+    	outline: none;
+    }
+     .container-top .b3 button{
+    	font-size:14px;
+    	top:400px;
+    	border: 1px solid #fff;
+    	width:67px;
+    	height:19px;
+    	background-color: #b2a9a3;
+    	border: none;
+    	outline: none;
+    	color: #fff;
+    	margin-top: 38px;
+    	margin-left: 10px;
+    }
+    .container-top .b3-1 button:hover{
+    	background-color: #eaeaea;
+    	color: #000;
+    	cursor: pointer;
+    }
+    .container-top .b3-1  button:active{
+    	background-color: #159;
+    }
+.container-top .b3:hover{
+	background-color: #eaeaea;
+}
+.container-top  .li1-3{
+	color: #5a5a5a;
+	font-size:14px;
+
+}
+
+.container .boyiluntan{
+	width: 1000px;
+	height: 300px;
+	overflow: hidden;
+}
+.container .biaoti{
+	display: block;
+	font-size: 17px;
+	color: #3f3f3f;
+	margin: 24px 0px 0px 22px;
+}
+.container .boyiluntan .luntan1{
+	width: 230px;
+	margin-top: 17px;
+	margin-left: 20px;
+	float: left;
+}
+.container .boyiluntan .luntan1 .duanluo .duanluo1{
+	margin-top: 20px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan1 .duanluo .duanluo2{
+	margin-top: 12px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan2{
+	width: 230px;
+	margin-top: 17px;
+	margin-left: 20px;
+	float: left;
+}
+.container .boyiluntan .luntan2 .duanluo .duanluo1{
+	margin-top: 20px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan2 .duanluo .duanluo2{
+	margin-top: 12px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan3{
+	width: 230px;
+	margin-top: 17px;
+	margin-left: 20px;
+	float: left;
+}
+.container .boyiluntan .luntan3 .duanluo .duanluo1{
+	margin-top: 20px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan3 .duanluo .duanluo2{
+	margin-top: 12px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan4{
+	width: 230px;
+	margin-top: 17px;
+	margin-left: 20px;
+	float: left;
+}
+.container .boyiluntan .luntan4 .duanluo .duanluo1{
+	margin-top: 20px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan4 .duanluo .duanluo2{
+	margin-top: 12px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+
+.container .situation{
+	width: 1000px;
+	height: 300px;
+	background-color: #e5e5e5;
+}
+.container .situation a{
+	display: block;
+	font-size: 12px;
+	color: #8f8f8f;
+}
+.container .situation span{
+	font-size: 12px;
+	color: #8f8f8f;
+}
+.container .situation .knowledge{
+	width: 454px;
+	float: left;
+	margin-top: 29px;
+	margin-left:  20px;
+}
+.container .situation .knowledge p{
+	margin-left: 12px;
+}
+.container .situation .knowledge hr{
+	width: 454px;
+	margin-top: 12px;
+}
+.container .situation .knowledge .knowledge1 ul{
+	float: left;
+}
+.container .situation .knowledge .knowledge1 ul a{
+	display: block;
+	width: 130px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.container .situation .knowledge .knowledge2 ul{
+	float: left;
+}
+.container .situation .knowledge .knowledge2 ul a{
+	display: block;
+	width: 180px;
+	margin-top: 15px;
+}
+.container .situation .knowledge .knowledge3 ul{
+	float: left;
+}
+.container .situation .knowledge .knowledge3 ul a{
+	display: block;
+	width: 130px ;
+	margin-top: 15px;
+}
+.container .situation .stage{
+	width: 153px;
+	float: left;
+	margin-top: 29px;
+	margin-left: 50px;
+}
+.container .situation .stage p{
+	margin-left: 12px;
+}
+.container .situation .stage hr{
+	width: 153px;
+	margin-top: 12px;
+}
+.container .situation .stage ul a{
+	display: block;
+	width: 150px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.container .situation .spread{
+	width: 273px;
+	float: left;
+	margin-top: 29px;
+	margin-left: 50px;
+}
+.container .situation .spread p{
+	margin-left: 12px;
+}
+.container .situation .spread hr{
+	width: 256px;
+	margin-top: 12px;
+}
+.container .situation .spread img{
+	margin-top: 15px;
+	margin-left: 33px;
+}
+
+
+.footer{
+	border: 1px solid #fff;
+	width: 1000px;
+	height:80px;
+}
+.footer .b8{
+	margin-left:20px;
+	margin-top:30px;
+}
+.footer .b8 a {
+	color: #000;
+	text-decoration: none;
+}
+.footer .f1{
+
+	float: left;
+	color: #000;
+	font-size:10px;
+	margin-left:15px; 
+}
+.footer .b9 a{
+	float: left;
+	margin-left:100px;
+	font-size:10px;
+	color: #000;
+
+}
+.footer .b10 a{
+	color: #000;
+	float:left;
+	font-size: 10px;
+	margin-left: 100px;
+}
+.footer .b10 img{
+	width: 100px;
+	height:10px;
+}
+
+/**/

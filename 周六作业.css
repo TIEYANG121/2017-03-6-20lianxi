@@ -1,0 +1,396 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	margin: 0 auto;
+	box-sizing:border-box;
+}
+li {
+	list-style: none;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+.clear:before,.clear:after{
+	content: "";
+	display:block;
+	clear:both;
+}
+
+
+
+.header{
+	width: 1000px;
+	height:160px;
+	border:1px solid #fff;
+
+
+}
+.header .logo{
+	border:1px solid #fff;
+	color: #0a3b7e;
+	font-size: 20px;
+	float: left;
+	font-family: '微软雅黑';
+	margin: 42px 0 0 22px;
+}
+.header .search{
+	float:right;
+	margin: 39px 19px 0 0 ;
+}
+.header .search input{
+	display: block;
+	float: left;
+
+
+}
+.header  button img{
+	width: 16px;
+	height: 16px;
+	display: block;
+	float:left;
+}
+ .header .nav{
+	width: 1000px;
+	height:60px;
+	background-color: #303030;
+	margin-top:100px;
+}
+.header a{
+	color: #fff;
+	text-decoration: none;
+	float: left;
+	font-size:15px;
+	font-family: '微软雅黑';
+	width: 125px;
+	height: 59px;
+	text-align:center;
+	line-height:59px;
+	border-right: 1px solid #4a4a4a;
+}
+
+
+
+
+.banner{
+	border: 1px solid #fff;
+	width: 1000px;
+	height: 500px;
+}
+.banner img{
+	width: 1000px;
+	height: 500px;
+}
+.banner .button1{
+    	font-size:20px;
+    	position:absolute;
+    	top:400px;
+    	margin-left:400px;
+    	border: 1px solid blue;
+    	width:200px;
+    	height:47px;
+    	background-color: #0a3b7e;
+    	border: none;
+    	outline: none;
+    	border-radius:6px;
+    	color: #fff;
+    }
+    .banner .button1:hover{
+    	background-color: #eaeaea;
+    	color: #000;
+    	cursor: pointer;
+    }
+    .banner .button1:active{
+    	background-color: #159;
+    }
+    .banner .button2{
+    	font-size:14px;
+    	position:absolute;
+    	top:400px;
+    	margin-left:0px;
+    	border: 1px solid blue;
+    	width:40px;
+    	height:60px;
+    	background-color: #b2a9a3;
+    	border: none;
+    	outline: none;
+    	color: #fff;
+    }
+    .banner .button2:hover{
+    	background-color: #eaeaea;
+    	color: #000;
+    	cursor: pointer;
+    }
+    .banner .button2:active{
+    	background-color: #159;
+    }
+    .banner .button3{
+    	font-size:14px;
+    	position:absolute;
+    	top:400px;
+    	margin-left:960px;
+    	border: 1px solid blue;
+    	width:40px;
+    	height:60px;
+    	background-color: #b2a9a3;
+    	border: none;
+    	outline: none;
+    	color: #fff;
+    }
+    .banner .button3:hover{
+    	background-color: #eaeaea;
+    	color: #000;
+    	cursor: pointer;
+    }
+    .banner .button3:active{
+    	background-color: #159;
+    }
+
+
+
+
+
+.container{
+	border: 1px solid #fff;
+	width: 1000px;
+	height: 792px;
+}
+.container-top{
+	border: 1px solid #fff;
+	width: 1000px;
+	height: 240px;
+}
+.container-top  .b1-1{
+	border: 1px solid #fff;
+	color: #000;
+	font-size:17px;
+	width: 500px;
+height: 240px;
+	float: left;
+
+}
+
+.container-top a{
+	color: #515151;
+	font-size: 12px;
+	font-family: '微软雅黑';
+}
+
+.container-top span{
+	color: #515151;
+	font-size: 12px;
+	float: right;
+}
+.container-top .b1-1:hover{
+	background-color: #eaeaea;
+}
+.container-top .li1-1 a{
+	color: #000;
+	font-size:12px;
+	float: left;
+}
+.container-top .b2{
+	background-color: #eaeaea;
+	color: #000;
+	font-size:17px;
+	float: left;
+	width: 241px;
+	height: 238px;
+}
+.container-top .li1-2-1{
+	color: #b8b8b8;
+	font-size: 14px;
+}
+.container-top .li1-2{
+	color: #515151;
+	font-size: 12px;
+}
+.container-top .b2:hover{
+	background-color: #eaeaea;
+}
+.container-top ul .li1-2{
+	color: #969696;
+	font-size:12px;
+}
+
+.container-top .b3 img{
+	width: 82px;
+	height:109px;
+	margin-left:110px; 
+
+}
+.container-top .b3{
+    	font-size:17px;
+    	border: 1px solid #fff;
+    	width: 250px;
+    	height: 240px;
+    	border: none;
+    	outline: none;
+    	float: left;
+    }
+     .container-top .b3 button{
+    	font-size:14px;
+    	top:400px;
+    	border: 1px solid #fff;
+    	width:67px;
+    	height:19px;
+    	background-color: #b2a9a3;
+    	border: none;
+    	outline: none;
+    	color: #fff;
+    	margin-top: 38px;
+    	margin-left: 10px;
+    }
+    .container-top .b3-1 button:hover{
+    	background-color: #eaeaea;
+    	color: #000;
+    	cursor: pointer;
+    }
+    .container-top .b3-1  button:active{
+    	background-color: #159;
+    }
+.container-top .b3:hover{
+	background-color: #eaeaea;
+}
+.container-top  .li1-3{
+	color: #5a5a5a;
+	font-size:15px;
+
+}
+
+
+.container-jungle .b4{
+	width: 1000px;
+	font-size:17px;
+	margin-top: 35px;
+	margin-left: 20px;
+}
+
+.container-jungle  .b4-1{
+	border: 1px solid #fff;
+	width: 249.5px;
+	float: left;
+	margin-top:30px;
+}
+.container-jungle img{
+	width: 220px;
+	height: 180px;
+	margin-left: 10px;
+
+}
+.container-jungle  .b4-1 a {
+	color:#535353;
+	font-size: 12px;
+	float: left;
+
+} 
+.container-bottom{
+	background-color: #fff;
+	border: 1px solid #fff;
+	width: 1000px;
+	height: 250px;
+	margin-bottom:0px;
+}
+.container-bottom .b5{
+	/*border: 1px solid #eaeaea;*/
+	font-size:22px;
+	width: 500px;
+	height: 250px;
+	float: left;
+	margin: 0px;
+	background-color: #eaeaea;
+
+}
+.container-bottom .b5-1 a{
+	font-size: 15px;
+	color:#000; 
+
+}
+.container-bottom  .b5-2 a{
+	color: #000;
+	font-size:15px;
+	float: left;
+}
+.container-bottom .b5-3 a{
+	font-size: 15px;
+	float: left;
+}
+.container-bottom .b6{
+	/*border: 1px solid #eaeaea;*/
+	
+}
+.container-bottom .b6-1{
+	width: 206px;
+	height:250px;
+	float: left;
+	font-size: 20px;
+	color: #5a5a5a;
+	font-family: '微软雅黑';
+	background-color:#eaeaea;
+}
+ .container-bottom .b6-1 a{
+	font-size: 12px;
+	color: #737373;
+
+}
+.container-bottom .b7{
+	float:right;
+	/*border: 1px solid #eaeaea;*/
+	width: 292.4px;
+	height: 250px;
+	background-color: #eaeaea;
+	float: left;
+}
+.container-bottom .b7{
+	color: #5a5a5a;
+	font-size: 17px;
+}
+.container-bottom .b7 img{
+	/*width: 187px;
+	height:146px;*/
+	float: right;
+
+}
+
+
+
+
+.footer{
+	border: 1px solid #fff;
+	width: 1000px;
+	height:80px;
+}
+.footer .b8{
+	margin-left:20px;
+	margin-top:30px;
+}
+.footer .b8 a {
+	color: #000;
+	text-decoration: none;
+}
+.footer .f1{
+
+	float: left;
+	color: #000;
+	font-size:10px;
+	margin-left:15px; 
+}
+.footer .b9 a{
+	float: left;
+	margin-left:100px;
+	font-size:10px;
+	color: #000;
+
+}
+.footer .b10 a{
+	color: #000;
+	float:left;
+	font-size: 10px;
+	margin-left: 100px;
+}
+.footer .b10 img{
+	width: 100px;
+	height:10px;
+}
+
+/**/

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+		margin:0px;
+		padding: 0px;
+		/*box-sizing: border-box;*/
+	}
+		
+		.box ul{
+		width: 400px;
+	    margin: 0 auto;
+
+		}
+		.box li{
+			position: relative;
+			overflow: hidden;
+			width:80px;
+			height:30px;
+		float: left;
+		list-style: none;
+		text-align: center;
+		background-color: #eaeaea;
+		line-height: 30px;
+		background-color: yellow;
+		
+		}
+	
+		.box li a{
+			display: block;
+			width: 80px;
+			height: 30px;
+			position: absolute;
+			text-decoration: none;
+			top: 30px;
+			background-color: blue;
+		
+		}
+		.box li div{
+			transition: transform 0.5s;
+		}
+		.box li:hover div{
+			transform:translateY(-30px); 
+		}
+		
+			</style>
+</head>
+<body>
+	<div class="box">
+		<ul>
+			<li><div><span>城市</span><a href="">套路深</a></div></li>
+			<li><div><span>赶紧</span><a href="">回农村</a></div></li>
+			<li><div><span>农村</span><a href="">路更滑</a></div></li>
+			<li><div><span>人心</span><a href="">更复杂</a></div></li>
+		</ul>
+	</div>
+</body>
+</html>
